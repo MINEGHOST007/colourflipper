@@ -1,0 +1,92 @@
+.container-fluid{
+background-color: black;
+}
+.navbar-brand{
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-center{
+  color: rgb(135, 152, 195);
+  font-size: 3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#random{
+  color: rgb(135, 152, 195);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  
+  background-image: url("https://cdn.wallpapersafari.com/18/35/3QEFIl.jpg");
+}
+#gallery{
+  position: fixed;
+  display : flex;
+  flex-wrap:wrap;
+  width : 100vw;
+  height : 80%;
+  padding: 10%;
+  align-items: center;
+  z-index: 1;
+}
+.gallery-item1,.gallery-item2,.gallery-item4,.gallery-item3{
+  text-align: center;
+  font-weight: 1000;
+  font-size: 40px;
+  height: 80%;
+  box-sizing: border-box;
+  color: black;
+  animation: fadeIn 4s ;
+}
+
+.tab{
+  
+  color: burlywood;
+}
+#submit{
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  background-color: rgba(65, 111, 227, 0);
+  border-radius: 6px;
+  border: 3px solid aliceblue;
+}
+#submit:hover{
+  background-color: aliceblue;
+  color: black;
+}
+#effects,#divisions{
+  background-color: rgba(240, 248, 255, 0);
+  width: 100vw;
+  border: 3px solid aliceblue;
+}
+.aftersubmit{
+  display: none;
+
+}
+#t1,#t2,#t3,#t4{
+  writing-mode: vertical-lr;
+}
+#heading{
+  background: linear-gradient(to right,rgb(67,124,205),rgb(69, 214, 204));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  pointer-events: none;
+  opacity: 1;
+  animation: fadeIn 4s ;
+}
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.colorcode{
+  color: rgb(255, 255, 255);
+  -webkit-text-fill-color: white;
+}
