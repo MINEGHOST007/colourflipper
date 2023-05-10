@@ -19,8 +19,6 @@ background-color: black;
 body{
   position: relative;
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
-  
   background-image: url("https://cdn.wallpapersafari.com/18/35/3QEFIl.jpg");
 }
 #gallery{
